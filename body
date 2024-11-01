@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY Lumineers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="background-music" src="background-song.mp3" autoplay loop></audio>
+    <div class="container">
+        <h1 id="title">DIY Lumineers</h1>
+        <button id="button1" class="sound-button">HEY</button>
+        <button id="button2" class="sound-button">HO</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

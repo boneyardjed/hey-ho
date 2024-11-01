@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const button1 = document.getElementById("button1");
     const button2 = document.getElementById("button2");
 
-    const sound1 = new Audio("hey.mp3");
-    const sound2 = new Audio("ho.mp3");
+    const sound1 = new Audio("hey.m4a");
+    const sound2 = new Audio("ho.m4a");
 
     function flashBackground(color) {
         document.body.style.backgroundColor = color;

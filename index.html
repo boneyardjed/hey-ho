@@ -8,14 +8,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <audio id="background-music" src="song.m4a" loop></audio>
+    <audio id="background-music" loop>
+        <source src="background-song.mp3" type="audio/mpeg">
+    </audio>
     <div class="container">
         <h1 id="title">DIY Lumineers</h1>
         <button id="play-music" class="play-button">Play Music</button>
         <button id="button1" class="sound-button">HEY</button>
         <button id="button2" class="sound-button">HO</button>
+        <button id="premium-section" class="premium-button">Premium Section</button>
+        
+        <!-- Hidden buttons for premium section -->
+        <div id="premium-buttons" style="display: none;">
+            <button id="button3" class="sound-button">Stomp</button>
+            <button id="button4" class="sound-button">Holler</button>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
 </html>
-

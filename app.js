@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const premiumButton = document.getElementById("premium-section");
     const premiumButtonsDiv = document.getElementById("premium-buttons");
     
-    const sound1 = new Audio("sound1.mp3");
-    const sound2 = new Audio("sound2.mp3");
+    const sound1 = new Audio("hey.mp3");
+    const sound2 = new Audio("ho.mp3");
     const sound3 = new Audio("stomp.mp3");
     const sound4 = new Audio("holler.mp3");
 

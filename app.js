@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const premiumButton = document.getElementById("premium-section");
     const premiumButtonsDiv = document.getElementById("premium-buttons");
     
-    const sound1 = new Audio("hey.mp3");
-    const sound2 = new Audio("ho.mp3");
-    const sound3 = new Audio("stomp.mp3");
-    const sound4 = new Audio("holler.mp3");
+    const sound1 = new Audio("hey.m4a");
+    const sound2 = new Audio("ho.m4a");
+    const sound3 = new Audio("stomp.m4a");
+    const sound4 = new Audio("holler.m4a");
 
     function flashBackground(color) {
         document.body.style.backgroundColor = color;
